@@ -1,0 +1,26 @@
+.container {
+  margin: 50px 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.leftSide {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.rightSide {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.add-contacts-form {
+  display: flex;
+  flex-direction:column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
