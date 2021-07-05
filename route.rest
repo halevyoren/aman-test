@@ -1,0 +1,16 @@
+GET http://localhost:3000/logs
+
+###
+
+GET http://localhost:3000/logs/123
+###
+
+POST http://localhost:3000/logs
+Content-Type: application/json
+
+{
+    "phoneNumber": "123"
+}
+
+###
+DELETE http://localhost:3000/logs/60e2be76b2af757334396c46
